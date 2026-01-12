@@ -26,6 +26,7 @@ const json = await response.json()
 if(json.status === "ok"){
     document.querySelector("#status").innerHTML = "zalogowano"
     localStorage.setItem("logowanie", "ok")
+    window.location.reload()
 }else{
         document.querySelector("#status").innerHTML = "nie zalogowano"
 }

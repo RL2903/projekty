@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require("cors")
-const mysql = require("mysql")
+const mysql = require("mysql") //kod do dodania admina na php my admin localhost: INSERT INTO uzytkownicy (login, password, uprawnienia) VALUES ('admin', MD5('admin'), 'admin');
 const md5 = require("md5")
 const port = 3000
 
