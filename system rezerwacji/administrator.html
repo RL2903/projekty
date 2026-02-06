@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Panel Administratora</h1>
+
+    <h2>Dodaj użytkownika</h2>
+    <input type="text" id="login" placeholder="login">
+    <input type="password" id="password" placeholder="password">
+    <select id="rola">
+        <option>Administrator</option>
+        <option>Nauczyciel</option>
+        <option>Uczen</option>
+    </select>
+    <button onclick="dodajUser()">Dodaj użytkownika</button>
+    <p id="statusUser"></p>
+
+    <h2>Dodaj sale</h2>
+    <input type="text" id="nazwa" placeholder="nazwa">
+    <input type="text" id="typ" placeholder="typ">
+    <button onclick="dodajSale()">Dodaj salę/sprzęt</button>
+    <p id="StatusSale"></p>
+    
+
+    <script src="administrator.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>

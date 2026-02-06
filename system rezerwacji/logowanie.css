@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    border: 10px solid lawngreen;
+    background-color: lawngreen;
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#login,
+#password {
+    background-color: black;
+    color: lawngreen;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: lawngreen;
+    background-color: black;
+}
+
+::placeholder {
+    color: lawngreen;
+}
