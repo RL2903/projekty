@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: #7CFC00;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #7CFC00;
+    margin-bottom: 15px;
+}
+
+input, select {
+    background-color: black;
+    color: #7CFC00;
+    border: 1px solid #7CFC00;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #7CFC00;
+}
+
+button {
+    background-color: #7CFC00;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #56b500;
+}
+
+p#statusUser, p#statusSale {
+    color: #7CFC00;
+    font-size: 14px;
+    margin-top: 8px;
+}

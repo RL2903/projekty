@@ -7,12 +7,17 @@ body {
 
 h1 {
     color: #7CFC00;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-p {
+ul#listaSal {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul#listaSal li {
+    margin-bottom: 8px;
     color: #7CFC00;
-    font-size: 16px;
 }
 button {
     background-color: #7CFC00;
